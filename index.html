@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+</head>
+<body>
+    <header class="fxw">
+        <div class="col-3">
+            <img class="col-5" src="imagens/logo.png" alt="">
+        </div>
+        <div class="col-9 direita">
+            <img class="col-2" src="imagens/icon_whatsapp.png">
+            <img class="col-2" src="imagens/icon_compra.png">
+        </div>
+
+    </header>
+
+    <main>
+        <section class="s1 fxw">
+            <h1 class="centraliza col-12">Nossos destaques</h1>
+            <div class="col-2 centraliza">
+                <img class="col-2" src="imagens/sanduiche1.png">
+            </div>
+            <div class="col-2 centraliza">
+                <img class="col-2" src="imagens/sanduiche2.png">
+            </div>
+            <div class="col-2 centraliza">
+                <img class="col-2" src="imagens/sanduiche3.png">
+            </div>
+            <div class="col-2 centraliza">
+                <img class="col-2" src="imagens/sanduiche4.png">
+            </div>
+            <div class="col-2 centraliza">
+                <img class="col-2" src="imagens/sanduiche5.png">
+            </div>
+            <div class="col-2 centraliza">
+                <img class="col-2" src="imagens/sanduiche6.png">
+            </div>
+        </section>
+        <section class="s2">
+            <div class="slider">
+                <div class="slider_principal">
+                    <input type="radio" name="bola" id="bola1">
+                    <input type="radio" name="bola" id="bola2">
+                    <div class="col-12 slidee primeiro">
+                        <img class="col-12" src="imagens/promocao1.jpg">
+                    </div>
+                    <div class="col-12 slidee">
+                        <img class="col-12" src="imagens/promocao2.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="quadradinhos">
+                <label for="bola1"><img src="imagens/slide_botao.png"></label>
+                <label for="bola2"><img src="imagens/slide_botao.png"></label>
+            </div>
+        </section>
+        <section class="s3">
+            <h1>Escolha seu sanduiche</h1>
+            <select id="sanduiche">
+                <option value="selecione">Selecione</option>
+                <option value="sanduiche1">Sanduiche 1</option>
+                <option value="sanduiche2">Sanduiche 2</option>
+                <option value="sanduiche3">Sanduiche 3</option>
+                <option value="sanduiche4">Sanduiche 4</option>
+                <option value="sanduiche5">Sanduiche 5</option>
+                <option value="sanduiche6">Sanduiche 6</option>
+            </select>
+            <h1>Escolha seu adicional</h1>
+            <select id="adicional">
+                <option value="selecione">Seleecione</option>
+                <option value="frango">Frango</option>
+                <option value="ovo">Ovo</option>
+                <option value="bacon">Bacon</option>
+            </select>
+            <div id="resposta"></div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
