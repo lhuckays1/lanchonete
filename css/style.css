@@ -122,7 +122,7 @@ h1{font-family: 'Futura Std', sans-serif;}
         background-color: rgba(0, 0, 0, 0.705);
         position: absolute;
         z-index: 2;
-        top: 750px;
+        bottom: 0px;
         width: 100%;
         color: white;
     }
@@ -218,6 +218,67 @@ h1{font-family: 'Futura Std', sans-serif;}
 
     .meusdadosS2 h1{
         padding-top: 10px;
+        font-size: 16px;
+        margin:  5px 0;
+    }
+
+    .usuario{
+        width: 50%;
+        height: 25px;
+        font-size: 20px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .senha{
+        width: 50%;
+        height: 25px;
+        font-size: 20px;
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .logar{
+        background-color: white;
+        border: 2px solid black;
+        color: black;
+        text-transform: uppercase;
+        width: 50% !important;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .recolher{
+        transform: rotate(180deg);
+    }
+
+    .grupo1{
+        background-color: white;
+        border: 2px solid black;
+        margin-top: 10px;
+        margin-left: 1.8%;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .grupo1 .imagem1{
+        text-align: left;
+    }
+
+    .grupo2{
+        background-color: white;
+        border: 2px solid black;
+        margin-left: 8%;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .grupo2 .resposta h1{
+        font-size: 15px;
+        text-align: right;
     }
 
 }
